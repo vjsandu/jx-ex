@@ -20,7 +20,7 @@ spec:
   - key: production
   ingress:
     domain: ""
-    externalDNS: false
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
